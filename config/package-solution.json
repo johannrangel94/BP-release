@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sw-bp-release-client-side-solution",
+    "id": "ed17a637-578c-476e-9737-7f9971d2c803",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sw-bp-release description"
+      },
+      "longDescription": {
+        "default": "sw-bp-release description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sw-bp-release Feature",
+        "description": "The feature that activates elements of the sw-bp-release solution.",
+        "id": "8ea2099b-2f9d-4692-bec9-ff7af29645c1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sw-bp-release.sppkg"
+  }
+}
