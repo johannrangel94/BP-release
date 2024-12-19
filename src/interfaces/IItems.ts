@@ -4,6 +4,6 @@ export interface IItems {
     technicalFunction: string;
     product: string;
     oem: string;
-    securityLevel: string;
+    Securitylevel: string;
     url: string;
 }

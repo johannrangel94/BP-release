@@ -1,7 +1,9 @@
 import { WebPartContext } from "@microsoft/sp-webpart-base";
+//import { IFieldInfo } from "@pnp/sp/fields";
 
 export interface ISwBpReleaseProps {
   context: WebPartContext;
-  description: string;
   selectedList: string;
+  selectedFields: string[];
+  orderedItems: Array<any>;
 }
